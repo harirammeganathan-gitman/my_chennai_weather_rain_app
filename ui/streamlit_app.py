@@ -3,7 +3,7 @@ import requests
 import streamlit as st
 from datetime import date
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://my-chennai-weather-rain-app.onrender.com/predict"
 
 st.set_page_config(
     page_title="Chennai Rain Predictor",
