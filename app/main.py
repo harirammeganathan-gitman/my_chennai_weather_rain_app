@@ -1,4 +1,6 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
 from app.schemas import (
     WeatherPredictionRequest,
     WeatherPredictionResponse,
@@ -13,12 +15,20 @@ app = FastAPI(
     version="1.0.0",
 )
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 @app.get("/")
 def root():
     return {
         "message": "Chennai Rain Prediction API is running",
-        "docs_url": "/docs"
+        "docs_url": "/docs",
     }
 
 
