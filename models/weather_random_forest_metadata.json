@@ -1,0 +1,25 @@
+{
+  "model_name": "RandomForestClassifier",
+  "sklearn_version": "1.9.0",
+  "feature_count": 17,
+  "features": [
+    "RainfallCity_mm",
+    "RainToday",
+    "RainfallLag1_mm",
+    "RainfallLag2_mm",
+    "RainfallLag3_mm",
+    "RainfallLag7_mm",
+    "RainfallRolling3_mm",
+    "RainfallRolling7_mm",
+    "Month",
+    "DayOfYear",
+    "MonthSin",
+    "MonthCos",
+    "DaySin",
+    "DayCos",
+    "StationCount",
+    "RecordCount",
+    "IsNE_Monsoon"
+  ],
+  "source_csv": "C:\\Users\\HRMPNJ\\PycharmProjects\\PythonProject1\\Weather_Rain_App\\data\\processed\\chennai_city_rain_model_ready.csv"
+}
