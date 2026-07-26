@@ -351,12 +351,12 @@ st.markdown(
 FEATURE_KEYS = {
     "rainfall_city": "RainfallCity_mm",
     "rain_today": "RainToday",
-    "lag1": "RainfallLag1mm",
-    "lag2": "RainfallLag2mm",
-    "lag3": "RainfallLag3mm",
-    "lag7": "RainfallLag7mm",
-    "rolling3": "RainfallRolling3mm",
-    "rolling7": "RainfallRolling7mm",
+    "lag1": "RainfallLag1_mm",
+    "lag2": "RainfallLag2_mm",
+    "lag3": "RainfallLag3_mm",
+    "lag7": "RainfallLag7_mm",
+    "rolling3": "RainfallRolling3_mm",
+    "rolling7": "RainfallRolling7_mm",
     "month": "Month",
     "day_of_year": "DayOfYear",
     "month_sin": "MonthSin",
@@ -365,7 +365,7 @@ FEATURE_KEYS = {
     "day_cos": "DayCos",
     "station_count": "StationCount",
     "record_count": "RecordCount",
-    "is_ne_monsoon": "IsNEMonsoon",
+    "is_ne_monsoon": "IsNE_Monsoon",
 }
 
 
